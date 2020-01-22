@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | Hotel | Travel</title>
+    <meta name="description" content="Hotel, B&B and restaurant template in HTML and with full-page scrolling.">
+    <script src="../scripts/jquery.min.js"></script>
+    <link rel="stylesheet" href="/scripts/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href='/scripts/jquery.flipster.min.css'>
+    <link rel="stylesheet" href='/scripts/magnific-popup.css'>
+    <link rel="stylesheet" href='/css/content-box.css'>
+    <link rel="stylesheet" href='/scripts/php/contact-form.css'>
+    <link rel="stylesheet" href='/scripts/flexslider/flexslider.css'>
+    <script src="../scripts/script.js"></script>
+    <link rel="icon" href="../images/favicon.png">
+</head>
+<body>
+    <div id="preloader"></div>
+    <header class="fixed-top scroll-change" data-menu-anima="fade-bottom">
+        <div class="navbar navbar-default icon-menu navbar-fixed-top" role="navigation">
+          
+            <div class="navbar navbar-main">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                       <h1 style="margin-top:15px;">Logo to Be added here</h1>
+                        <!-- <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a> -->
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="index.html"><i class="onlycover" style="background-image:url('images/icons/icon-5.png')"></i><span>Hotel</span></a></li>
+                            <li class="dropdown">
+                                <a href="rooms.html" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="onlycover" style="background-image:url('images/icons/icon-3.png')"></i><span>Rooms</span></a>
+                            
+                            </li>
+                            <li><a href="gallery.html"><i class="onlycover" style="background-image:url('images/icons/icon-2.png')"></i><span>Gallery</span></a></li>
+                            <li><a href="restaurant.html"><i class="onlycover" style="background-image:url('images/icons/icon-6.png')"></i><span>Restaurant</span></a></li>
+                            <li><a href="contacts.html"><i class="onlycover" style="background-image:url('images/icons/icon-4.png')"></i><span>Contacts</span></a></li>
+                        </ul>
+                        <div class="nav navbar-nav navbar-right">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="section-bg-animation header-animation box-middle-container white" style="background-image:url('images/banner.jpg'); height:550px">
+        <div id="anima-layer-a" class="anima-layer fog-1"></div>
+        <div id="anima-layer-b" class="anima-layer fog-2"></div>
+        <div class="bg-gradient"></div>
+        <img class="overlay bottom center" width="649" src="images/overlay.png" data-anima="fade-bottom" alt="" />
+        <div class="container content text-center" data-anima="show-scale" data-timeline="asc" data-time="1000">
+            <hr class="space" />
+            <h1 class="anima text-xl">WELCOME TO REGENTA CENTRAL | FUN HOLIDAYS | VIRASAT RESTAURANT</h1>
+            <p class="anima secondary-color-2">
+                An oasis in the Thailand
+            </p>
+        </div>
+    </div>
+    <div class="section-empty">
+        <div class="container content">
+            <div class="row" data-anima="fade-bottom">
+                <div class="col-md-6">
+                    <div class="title-base title-small text-left" data-anima="show-scale" data-trigger="hover">
+                        <h2>Why REGENTA CENTRAL | FUN HOLIDAYS | VIRASAT Indian Restaurant ?</h2>
+                        <hr class="anima" />
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="fa-ul ">
+                                <li><i class="fa-li fa fa-check"></i> Priviliged location in Thailand</li>
+                                <li><i class="fa-li fa fa-check"></i> High customer satisfaction</li>
+                                <li><i class="fa-li fa fa-check"></i> Unparalleded service</li>
+                                <li><i class="fa-li fa fa-check"></i> On-site parking</li>
+                                <li><i class="fa-li fa fa-check"></i> Free Wifi</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="fa-ul "> 
+                                <li><i class="fa-li fa fa-check"></i> Delicious breakfast</li>
+                                <li><i class="fa-li fa fa-check"></i> Indian and International Restaurant</li>
+                                <li><i class="fa-li fa fa-check"></i> Wellness & pool</li>
+                                <li><i class="fa-li fa fa-check"></i> Old world charm, modern comfort</li>
+                                <li><i class="fa-li fa fa-check"></i> Roof Top Dining</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="title-base title-small text-left" data-anima="show-scale" data-trigger="hover">
+                        <h2>Enquiry Form</h2>
+                        <hr class="anima" />
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>Name</p>
+                            <input id="name" name="name" placeholder="name" type="text" class="form-control form-value" required>
+                        </div>
+                        <div class="col-md-6">
+                            <p>Email</p>
+                            <input id="email" name="email" placeholder="email" type="email" class="form-control form-value" required>
+                        </div>
+                    </div>
+                    <hr class="space xs" />
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>Phone</p>
+                            <input type="text" class="form-control" placeholder="phone">
+                        </div>
+                        <div class="col-md-6">
+                            <p>Subject</p>
+                            <input type="text" class="form-control" placeholder="subject">
+                        </div>
+                    </div>
+                    <hr class="space xs" />
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>Message</p>
+                            <textarea id="messagge" name="messagge" class="form-control form-value" required></textarea>
+                            <hr class="space s" />
+                            <button class="anima-button circle-button btn-sm btn" type="submit"><i class="fa fa-envelope-o"></i>Send messagge</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-empty">
+        <div class="container content">
+            <div class="row" data-anima="fade-bottom">
+                <div class="col-md-6">
+                    <div class="coverflow-slider">
+                        <ul class="slides">
+                            <li>
+                                <a class="img-box lightbox" href="images/slider1.jpg">
+                                    <img src="images/slider1.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img-box lightbox" href="images/slider2.jpg">
+                                    <img src="images/slider2.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img-box lightbox" href="images/slider3.jpg">
+                                    <img src="images/slider3.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img-box lightbox" href="images/recep.jpeg">
+                                    <img src="images/recep.jpeg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="title-base title-small text-left" data-anima="show-scale" data-trigger="hover">
+                        <h2>VIRASAT INDIAN RESTAURANT</h2>
+                        <hr class="anima" />
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <hr class="space xs" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-empty">
+        <div class="container content">
+            <div class="row" data-anima="fade-bottom">
+                <div class="col-md-6">
+                    <div class="coverflow-slider">
+                        <ul class="slides">
+                            <li>
+                                <a class="img-box lightbox" href="images/gal1.jpeg">
+                                    <img src="images/gal1.jpeg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img-box lightbox" href="images/gal3.jpeg">
+                                    <img src="images/gal3.jpeg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img-box lightbox" href="images/gal8.jpeg">
+                                    <img src="images/gal8.jpeg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img-box lightbox" href="images/gal9.jpeg">
+                                    <img src="images/gal9.jpeg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="title-base title-small text-left" data-anima="show-scale" data-trigger="hover">
+                        <h2>REGENTA CENTRAL RESIDENCE</h2>
+                        <hr class="anima" />
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <hr class="space xs" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-empty">
+        <div class="container content">
+            <div class="row" data-anima="fade-bottom">
+                <div class="col-md-6">
+                    <div class="coverflow-slider">
+                        <ul class="slides">
+                            <li>
+                                <a class="img-box lightbox" href="images/travel1.jpg">
+                                    <img src="images/travel1.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img-box lightbox" href="images/travel2.jpg">
+                                    <img src="images/travel2.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img-box lightbox" href="images/travel3.jpg">
+                                    <img src="images/travel3.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img-box lightbox" href="images/travel4.jpg">
+                                    <img src="images/travel4.jpg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="title-base title-small text-left" data-anima="show-scale" data-trigger="hover">
+                        <h2>FUN HOLIDAY</h2>
+                        <hr class="anima" />
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <hr class="space xs" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-empty">
+        <div class="container content">
+            <div class="title-base title-small text-center" data-anima="show-scale" data-trigger="hover">
+                <h2>REVIEWS</h2>
+                <hr class="anima" />
+            </div>
+            <div class="flexslider carousel outer-navs" data-options="minWidth:150,itemMargin:3,numItems:4">
+                <ul class="slides">
+                    <li>
+                        <div>
+                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            <h4>TripAdvisor Member</h4>
+                            <p>
+                                "I liked everything, clean room, great friendly staff helping us with our bags to our room & down again. Large bedroom and bathroom. Overall,the room was perfect for a quiet vacation with a good view of the city. This hotel was guest friendly. Great restaurant with delicious food. Facilities were excellent, really enjoy massage, laundry, swimming pool and sauna. Good night sleep very peaceful."                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            <h4>TripAdvisor Member</h4>
+                            <p>
+                                "Nice hotel with very spacious rooms, good location, nice service only one disappointing point for vegetarians there is very less option available in food menu and only bakery products available for morning buffet breakfast. But there is a small restaurant nearby where you can get non veg and veg options too."
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            <h4>TripAdvisor Member</h4>
+                            <p>
+                                "I loved the Service Provied by the Hotel and the Food feels like my Home Country INDIA, Over All i had a very Good experience"
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            <h4>TripAdvisor Member</h4>
+                            <p>
+                                "It is very near to the beach and has amazing view from the roof top, I will recommend everyone to atleast one visit this Hotel if you are in Pattaya"
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-center footer-minimal">
+        <div class="content">
+            <div class="container">
+                <div class="row footer-main">
+                    <p class="footer-title">CONTACTS</p>
+                    <p>519/61 Moo 10 Soi 8, Opp. Central Festival Mall, 2nd Road, Pattaya - 20150 , Thailand</p>
+                    <div class="tag-row icon-row">
+                        <span>regentacentralpattaya@gmail.com</span>
+                        <span>(+66) 824749251 / 253</span>
+                       
+                    </div>
+                    <hr class="space xs" />
+                    <div class="btn-group navbar-social">
+                        <div class="btn-group social-group">
+                            <a target="_blank" href="https://www.facebook.com/regentacentralpattaya" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row copy-row">
+                    <div class="col-md-12 copy-text">
+                        <div class="tag-row">
+                            <span>© ALL RIGHTS RESERVED</span>
+                            <span>REGENTA CENTRAL </span>
+                            <span>THAILAND</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <link property="" rel="stylesheet" href="../scripts/font-awesome/css/font-awesome.min.css">
+        <script async src="../scripts/bootstrap/js/bootstrap.min.js"></script>
+        <link property="" rel="stylesheet" href="../css/animations.css">
+        <script src="../scripts/imagesloaded.min.js"></script>
+        <script src='../scripts/jquery.spritely.min.js'></script>
+        <script src='../scripts/php/datepicker.min.js'></script>
+        <script src='../scripts/php/contact-form.js'></script>
+        <script src='../scripts/jquery.flipster.min.js'></script>
+        <script src='../scripts/flexslider/jquery.flexslider-min.js'></script>
+        <script src='../scripts/jquery.magnific-popup.min.js'></script>
+        <script src='../scripts/parallax.min.js'></script>
+    </footer>
+</body>
+</html>
